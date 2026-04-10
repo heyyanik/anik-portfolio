@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn {
+    background: white;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SERVICES */
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255,255,255,0.08);
+    padding: 25px;
+    width: 260px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+
+/* CONTACT */
+#contact {
+    background: #020617;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
+/* ABOUT SECTION */
+#about {
+    background: #020617;
+    padding: 80px 20px;
+}
+
+/* SERVICE ICON STYLE */
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+/* BETTER TEXT */
+p {
+    line-height: 1.6;
+}
+
+/* NAV HOVER */
+nav a:hover {
+    color: #a855f7;
+}
+
+/* BUTTON HOVER */
+.btn:hover {
+    background: #ddd;
+}
